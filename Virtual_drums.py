@@ -82,7 +82,7 @@ while True:
     mask = detect_in_region(hat_region, 2)
 
     # Output text
-    cv2.putText(frame, 'Virtual Drums', (10, 30), 2, 1, (20, 20, 20), 2)
+    cv2.putText(frame, 'Virtual Drums', (10, 250), 2, 1, (20, 20, 20), 2)
     cv2.putText(frame, 'Rick Sikka', (1100, 30), 2, 1, (20, 20, 20), 2)
     cv2.putText(frame, '"q" to exit', (1100, 70), 2, 1, (20, 20, 20), 2)
 
