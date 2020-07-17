@@ -1,0 +1,4 @@
+numpy==1.16.0
+pygame==1.9.6
+flask==1.1.1
+opencv-python==4.1.1.26
